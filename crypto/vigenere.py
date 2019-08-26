@@ -10,7 +10,7 @@ def encrypt(letters, key):
             encrypted = encrypted + rotate_character(i, alphabet_position(key[index]))
             index = (index + 1) % key_length
 
-        else:
+        else: 
             encrypted = encrypted + i
 
     return encrypted

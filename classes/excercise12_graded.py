@@ -2,19 +2,9 @@
 
 class Car:
 
-<<<<<<< HEAD
-  def __init__(self, level):
-    
-    self.level = level
-
-example_car1 = Car(10)
-
-print(example_car1.level)
-
-=======
     def __init__(self, level):
-
-        self.level = level
+    
+            self.level = level
 
     def add_gas(self, gas_added):
         self.level = self.level + gas_added
@@ -37,4 +27,3 @@ print(example_car1.level)
 
 
 print(example_car1.fill_up())
->>>>>>> d34158ca6b2de6b282992671c7772fc1107be0c4

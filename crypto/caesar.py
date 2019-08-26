@@ -8,7 +8,7 @@ def encrypt(letters, rot):
         else:
             encrypted = encrypted + i
     return encrypted
-
+ 
 
 def main():
     letters = input("What would you like to encrpt? ")
