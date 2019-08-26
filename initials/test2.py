@@ -1,22 +1,8 @@
 
 
-def rotate():
+fullname = 'brian hoffman'
 
-    letter = "Z"
+fullname = fullname.split()
 
-    rot = 10
+print(fullname[0][0])
 
-    adjust = 97 if letter.islower() else 65
-
-    return chr((ord(letter) + rot - adjust) % 26 + adjust)
-
-
-print(rotate())
-
-index = 2
-
-key_length = 4
-
-index = (index + 1) % key_length
-
-print(index)
